@@ -1,10 +1,10 @@
 #include <stdio.h>
 int input_side()
 {
-  int side;
+  int n;
   printf("enter the side of the triangle :\n");
-  scanf("%d",&side);
-  return side;
+  scanf("%d",&n);
+  return n;
 }
 
 int check_scalene(int a,int b,int c)
