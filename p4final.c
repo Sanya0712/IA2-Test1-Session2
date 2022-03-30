@@ -45,11 +45,11 @@ void out_put(int sum)
 
 int main()
 {
-  int x;
-  x = input_array_size();
-  int arr[x];
-  input_array(x,arr);
-  int result = sum_composite_numbers(x,arr);
+  int y;
+  y = input_array_size();
+  int arr[y];
+  input_array(y,arr);
+  int result = sum_composite_numbers(y,arr);
   out_put(result);
   return 0;
 }
