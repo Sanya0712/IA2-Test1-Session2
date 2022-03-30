@@ -1,10 +1,10 @@
 #include <stdio.h>
 int input_number()
 {
-  int num;
+  int n;
   printf("enter the number:\n");
-  scanf("%d",&num);
-  return num;
+  scanf("%d",&n);
+  return n;
 }
 
 int is_composite(int n)
